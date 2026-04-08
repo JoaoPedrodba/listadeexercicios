@@ -6,13 +6,9 @@ public class main {
         c1.marca = "Fiat";
         c1.ano = 2010;
 
-        Carro c2 = new Carro();
-        c2.modelo = "Gol Quadrado";
-        c2.marca = "Volkswagen";
-        c2.ano = 1994;
-
-        System.out.println("Modelo: " + c1.modelo +" Marca: " + c1.marca + " Ano: " + c1.ano);
-        System.out.println("Modelo: " + c2.modelo +" Marca: " + c2.marca + " Ano: " + c2.ano);
+        c1.exibir(); // execulta a ação de imprimir na tela
+       c1.idadeDoCarro(); // Devolve o valor da idade do carro
+        System.out.println("Idade do Carro: "+ c1.idadeDoCarro()); 
     }
 
 }
